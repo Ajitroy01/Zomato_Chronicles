@@ -1,0 +1,5 @@
+services:
+  - name: Zomato_Chronicles
+    buildCommand: python -m pip install -r requirements.txt
+    startCommand: python run.py
+    buildDirectory: app
