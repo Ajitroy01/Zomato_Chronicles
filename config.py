@@ -4,7 +4,7 @@ class Config:
     DEBUG = False
     TESTING = False
     # Other common configuration options
-    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:ajit2004@localhost/zomato'
+    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:ajit2004@localhost:3306/zomato'
     SQLALCHEMY_TRACK_MODIFICATIONS = False  # Disable tracking modifications for better performance
 
 class DevelopmentConfig(Config):
