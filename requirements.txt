@@ -9,7 +9,6 @@ bcrypt
 Flask-Migrate
 Flask-CORS
 sqlalchemy.orm
-json
 pytest
 mysql-connector-python
 mysqlclient
