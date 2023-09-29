@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\ajit\Desktop\ajit_roy_fw25_259\unit-7\sprint-2\day-1\you\Zomato_Chronicles_Flask_TDD\venv"
+VIRTUAL_ENV="C:\Users\ajit\Desktop\Zomato_Chronicles\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

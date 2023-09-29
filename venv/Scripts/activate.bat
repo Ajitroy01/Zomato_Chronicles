@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\ajit\Desktop\ajit_roy_fw25_259\unit-7\sprint-2\day-1\you\Zomato_Chronicles_Flask_TDD\venv
+set VIRTUAL_ENV=C:\Users\ajit\Desktop\Zomato_Chronicles\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
