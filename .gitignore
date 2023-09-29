@@ -1,1 +1,27 @@
-.vercel
+# Virtual environment
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Database
+*.sqlite
+
+# Logs and temporary files
+logs/
+tmp/
+
+# Environment variables file (if used)
+.env
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+
+# Dependency directories
+__pycache__/
+dist/
+build/
+*.egg-info/
+

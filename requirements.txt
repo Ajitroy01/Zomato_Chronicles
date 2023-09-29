@@ -6,3 +6,5 @@ Flask-WTF
 WTForms
 SQLAlchemy
 bcrypt
+Flask-Migrate
+
