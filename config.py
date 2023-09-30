@@ -1,10 +1,16 @@
 import os
+from dotenv import load_dotenv
 
+# Load environment variables from .env file
+load_dotenv()
+
+# Access the environment variables
+DATABASE_URL = os.getenv("DATABASE_URL")
 class Config:
     DEBUG = False
     TESTING = False
-    # Other common configuration options
-    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:ajit2004@127.0.0.1:3306/zomato'
+    # config.py
+    SQLALCHEMY_DATABASE_URI = DATABASE_URL
     SQLALCHEMY_TRACK_MODIFICATIONS = False  # Disable tracking modifications for better performance
 
 class DevelopmentConfig(Config):

@@ -12,3 +12,4 @@ sqlalchemy.orm
 pytest
 mysql-connector-python
 mysqlclient
+python-dotenv
